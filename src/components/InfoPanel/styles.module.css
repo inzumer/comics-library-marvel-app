@@ -1,0 +1,76 @@
+.infopanel {
+  /* 2. Box model */
+  width: 100%;
+  min-height: 100vh;
+  padding: var(--space-16);
+
+  /* 1. Positioning */
+  display: flex;
+  justify-content: center;
+
+  /* 4. Visuals */
+  background-image: url('../../assets/backgrounds/bg-total-black.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.infopanel__container {
+  /* 1. Positioning */
+  display: flex;
+  flex-direction: column;
+
+  /* 2. Box model */
+  gap: var(--space-32);
+  width: 100%;
+  max-width: var(--breakpoint-lg);
+  margin: auto;
+  padding: var(--space-16);
+}
+
+.infopanel__img {
+  /* 4. Visuals */
+  border-radius: 50%;
+}
+
+.infopanel__text {
+  /* 3. Typography */
+  color: var(--white-light);
+}
+
+.infopanel__title {
+  /* 3. Typography */
+  text-transform: uppercase;
+}
+
+.infopanel__list {
+  /* 3. Typography */
+  list-style-type: disc;
+}
+
+.infopanel__list_item::marker {
+  /* 3. Typography */
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--white-light);
+}
+
+.infopanel__container_button {
+  /* 1. Positioning */
+  display: flex;
+  justify-content: end;
+}
+
+.infopanel__button_text {
+  /* 2. Box model */
+  padding: var(--space-16);
+
+  /* 4. Visuals */
+  background-color: var(--secondary-light);
+  transition: color 0.3s ease-in-out;
+}
+
+.infopanel__button_text:hover {
+  /* 4. Visuals */
+  color: var(--black-light);
+}

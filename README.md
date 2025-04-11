@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Project 🚀
 
-## Getting Started
+This is a project developed with [Next.js](https://nextjs.org), initialized with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app), using **TypeScript**, **CSS Modules**, and specific libraries such as [`@egjs/react-flicking`](https://naver.github.io/egjs-flicking/) and the **Marvel API**.
 
-First, run the development server:
+---
 
-```bash
+## 👾 Main Technologies and Tools
+
+- **Next.js** — React framework for production.
+- **TypeScript** — Static typing for greater robustness and scalability.
+- **CSS Modules** — For local styles, using conventions such as `styles.content__example`.
+- **@egjs/react-flicking** — Flexible and performant carousel.
+- **Marvel API** — For consuming and displaying superhero-related content.
+
+---
+
+## 🧱 Coding Conventions
+
+### ✨ Styles with CSS Modules
+
+Styles are written using CSS Modules, with the following class naming convention:
+
+```ts
+styles.blockName__element
+
+Example: styles.card__title, styles.hero__image
+```
+
+---
+
+## 🧼 Organization and Comments in CSS
+
+All style files must be commented and organized as follows:
+
+```css
+/*
+1. Positioning
+2. Box model (Ex: Box model measurements, Margin, Padding, etc.)
+3. Typography
+4. Visuals
+5. Others
+*/
+```
+
+---
+
+## 🚀 Getting Started
+
+First, install the dependencies and run the development server:
+
+```ts
+npm install
 npm run dev
-# or
+# or with yarn
+yarn install
 yarn dev
-# or
+# or pnpm
+pnpm install
 pnpm dev
-# or
+# or bun
+bun install
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open http://localhost:3000 in your browser to see the app in action.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Start editing the app from app/page.tsx. The content updates automatically when you save changes.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📦 Font Optimization
 
-To learn more about Next.js, take a look at the following resources:
+This project uses `next/font` to efficiently load the [Geist]('https://vercel.com/font') font, developed by Vercel.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📚 Useful Resources
 
-## Deploy on Vercel
+[Official Next.js Documentation]('https://nextjs.org/docs')
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[Next.js Interactive Tutorial]('https://nextjs.org/learn')
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[Next.js GitHub Repository]('https://github.com/vercel/next.js')
+
+---
+
+## ☁️ Deploying with Vercel
+
+The easiest way to deploy this project is through Vercel, a platform created by the authors of Next.js.
+
+Check out the deployment [documentation]('https://nextjs.org/docs/app/building-your-application/deploying') to learn more.
+
+---
+
+## 📬 Comments
+
+All suggestions or contributions are welcome!
+

@@ -1,0 +1,38 @@
+.pagination {
+  /* 1. Positioning */
+  display: flex;
+  justify-content: center;
+
+  /* 2. Box model */
+  gap: var(--space-8);
+  padding: var(--space-48) var(--space-8);
+}
+
+.pagination__item_number,
+.pagination__item_previous,
+.pagination__item_next {
+  /* 2. Box model */
+  border-radius: 0;
+  border: 2px solid transparent;
+
+  /* 4. Visuals */
+  transition: border-bottom 0.3s ease-in-out;
+}
+
+.pagination__item_number:hover,
+.pagination__item_previous:hover,
+.pagination__item_next:hover {
+  /* 2. Box model */
+  border-bottom: 2px solid var(--secondary-light);
+}
+
+.pagination__item_number__active {
+  /* 4. Visuals */
+  background-color: var(--secondary-light);
+  color: var(--white-light);
+}
+
+.pagination__text {
+  /* 3. Typography */
+  color: var(--white-light);
+}

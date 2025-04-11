@@ -1,0 +1,33 @@
+.section {
+  /* 2. Box model */
+  width: 100%;
+  max-width: var(--breakpoint-lg);
+  margin: auto;
+  padding: var(--space-48) var(--space-16);
+}
+
+.section__title {
+  /* 3. Typography */
+  font-size: var(--space-24);
+  text-transform: uppercase;
+
+  /* 2. Box model */
+  margin-bottom: var(--space-32);
+}
+
+.section__title_white {
+  /* 3. Typography */
+  color: var(--white-light);
+}
+
+.section__cards {
+  /* 1. Positioning */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* 2. Box model */
+  padding: var(--space-16);
+  gap: var(--space-32);
+  min-height: var(--space-496);
+}

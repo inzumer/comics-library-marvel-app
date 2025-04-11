@@ -1,0 +1,1 @@
+export { default as ImageError } from './image-error.png';

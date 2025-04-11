@@ -1,0 +1,45 @@
+.card__image {
+  /* 1. Positioning */
+  display: grid;
+  gap: var(--space-16);
+
+  /* 2. Box model */
+  width: var(--space-256);
+  height: var(--space-432);
+}
+
+.card__image_container {
+  /* 2. Box model */
+  width: var(--space-256);
+  height: var(--space-384);
+  padding: var(--space-16);
+
+  /* 4. Background */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.card__image_info {
+  /* 1. Positioning */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* 2. Box model */
+  padding: var(--space-16) 0;
+
+  /* 3. Typography */
+  text-transform: uppercase;
+}
+
+.card__text_white {
+  /* 3. Typography */
+  color: var(--white-light);
+}
+
+.card__text_black {
+  /* 3. Typography */
+  color: var(--black-light);
+}
