@@ -1,0 +1,5 @@
+.separator {
+  /* 2. Box model */
+  width: 100%;
+  border: 1px solid var(--white-dark);
+}

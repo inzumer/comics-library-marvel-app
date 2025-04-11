@@ -1,0 +1,61 @@
+.error {
+  /* 2. Box model */
+  width: 100%;
+  min-height: 100vh;
+  padding: var(--space-16);
+  margin-top: var(--space-64);
+
+  /* 1. Positioning */
+  display: flex;
+  justify-content: center;
+
+  /* 4. Visuals */
+  background-image: url('../../assets/backgrounds/bg-total-black.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.error__container {
+  /* 1. Positioning */
+  display: flex;
+  flex-direction: column;
+
+  /* 2. Box model */
+  gap: var(--space-32);
+  width: 100%;
+  max-width: var(--breakpoint-lg);
+  margin: auto;
+  padding: var(--space-16);
+}
+
+.error_img {
+  /* 2. Box model */
+  margin: auto;
+}
+
+.error__title {
+  /* 3. Typography */
+  color: var(--white-light);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.error__button_text {
+  /* 2. Box model */
+  padding: var(--space-16);
+
+  /* 3. Typography */
+  color: var(--white-light);
+  text-align: center;
+  text-transform: uppercase;
+
+  /* 4. Visuals */
+  background-color: var(--secondary-light);
+  transition: color 0.3s ease-in-out;
+}
+
+.error__button_text:hover {
+  /* 4. Visuals */
+  color: var(--black-light);
+}

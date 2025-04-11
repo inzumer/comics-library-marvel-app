@@ -1,0 +1,38 @@
+.events {
+  /* 1. Positioning */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* 2. Box model */
+  width: 100%;
+  min-height: 100vh;
+  padding: var(--space-16);
+
+  /* 4. Visuals */
+  background-image: url('../../assets/backgrounds/bg-total-black.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.events__container {
+  /* 2. Box model */
+  max-width: var(--breakpoint-lg);
+  margin: auto;
+}
+
+.events__title {
+  /* 2. Box model */
+  margin: var(--space-64) 0;
+}
+
+.events__cards {
+  /* 1. Positioning */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  /* 2. Box model */
+  gap: var(--space-32);
+}
