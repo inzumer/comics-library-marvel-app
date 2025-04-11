@@ -1,0 +1,123 @@
+/*
+1.Positioning
+2.Box model (Ex: Box model measurements, Margin, Padding, Etc.)
+3.Typography
+4.Visuals
+5.Others
+*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+#main {
+  padding-top: var(--space-96);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #FBFBFB;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #2C2C31;
+}
+
+/* Colors */
+:root {
+  /* White Shades */
+  --white: #FFFFFF;
+  --white-light: #F8F8F8;
+  --white-dark: #E0E0E0;
+
+  /* Gray Shades */
+  --gray-light: #A8A8A8;
+  --gray: #8D8D8D;
+  --gray-dark: #525252;
+
+  /* Black Shades */
+  --black-light: #262626;
+  --black: #151515;
+  --black-dark: #000000;
+
+  /* Primary (Yellow) */
+  --primary-light: #FFFF39;
+  --primary: #FFDE17;
+  --primary-dark: #EDBC00;
+
+  /* Secondary (Red) */
+  --secondary-light: #D32F2F;
+  --secondary: #AA0505;
+  --secondary-dark: #6A0C0B;
+}
+
+
+/* Spaces */
+:root {
+  --space-8: 8px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-40: 40px;
+  --space-48: 48px;
+  --space-56: 56px;
+  --space-64: 64px;
+  --space-72: 72px;
+  --space-80: 80px;
+  --space-88: 88px;
+  --space-96: 96px;
+  --space-104: 104px;
+  --space-112: 112px;
+  --space-120: 120px;
+  --space-128: 128px;
+  --space-136: 136px;
+  --space-144: 144px;
+  --space-152: 152px;
+  --space-160: 160px;
+  --space-256: 256px;
+  --space-304: 304px;
+  --space-320: 320px;
+  --space-328: 328px;
+  --space-336: 336px;
+  --space-344: 344px;
+  --space-352: 352px;
+  --space-360: 360px;
+  --space-368: 368px;
+  --space-376: 376px;
+  --space-384: 384px;
+  --space-392: 392px;
+  --space-400: 400px;
+  --space-408: 408px;
+  --space-416: 416px;
+  --space-424: 424px;
+  --space-432: 432px;
+  --space-440: 440px;
+  --space-448: 448px;
+  --space-456: 456px;
+  --space-464: 464px;
+  --space-472: 472px;
+  --space-480: 480px;
+  --space-488: 488px;
+  --space-496: 496px;
+}
+
+:root {
+  --breakpoint-xs: 320px;
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1440px;
+  --breakpoint-xxl: 1920px;
+}

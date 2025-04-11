@@ -1,0 +1,61 @@
+.presentation {
+  /* 1. Positioning */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* 2. Box model */
+  width: 100%;
+  height: 100vh;
+  padding: var(--space-48) var(--space-16);
+
+  /* 4. Visuals */
+  background-color: var(--secondary-light);
+}
+
+.section {
+  /* 1. Positioning */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /* 2. Box model */
+  max-width: var(--breakpoint-lg);
+}
+
+.presentation__title {
+  /* 2. Box model */
+  width: fit-content;
+  margin: auto;
+
+  /* 3. Typography */
+  text-align: center;
+  color: white;
+}
+
+/* Section Backgrounds */
+.bg__characters,
+.bg__events {
+  /* 4. Visuals */
+  background-image: url('../../assets/backgrounds/bg-black-up.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+
+  /* 2. Box model */
+  width: 100%;
+}
+
+.bg__series,
+.bg__comics {
+  /* 4. Visuals */
+  background-image: url('../../assets/backgrounds/bg-black-down.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+
+  /* 2. Box model */
+  width: 100%;
+}
