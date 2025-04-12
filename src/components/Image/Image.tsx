@@ -20,9 +20,11 @@ const Image: React.FC<ImageProps> = ({
   priority = false,
   lazy = true,
 }) => {
+  const secureSrc = src.startsWith('http://') ? src.replace('http://', 'https://') : src;
+
   return (
     <NextImage
-      src={src}
+      src={secureSrc}
       alt={alt}
       width={width}
       height={height}

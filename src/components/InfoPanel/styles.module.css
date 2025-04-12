@@ -58,7 +58,7 @@
 .infopanel__container_button {
   /* 1. Positioning */
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .infopanel__button_text {

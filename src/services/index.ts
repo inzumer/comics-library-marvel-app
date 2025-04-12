@@ -1,3 +1,1 @@
-import MarvelService from './MarvelService';
-
-export { MarvelService };
+export { default as MarvelService } from './MarvelService';

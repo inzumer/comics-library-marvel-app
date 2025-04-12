@@ -1,3 +1,5 @@
+'use client';
+
 /** Resources */
 import { useState, useEffect } from 'react';
 import { Button, Icon, RichText } from '@components';
