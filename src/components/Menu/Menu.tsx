@@ -1,3 +1,5 @@
+'use client';
+
 /** Resources */
 import { useMediaQuery } from '@hooks';
 import { HEADER } from '@constants';
