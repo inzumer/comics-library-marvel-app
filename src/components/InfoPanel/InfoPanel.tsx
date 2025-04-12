@@ -3,7 +3,7 @@ import { Button, Image, Loading, RichText } from '@components';
 import { ApiCategoryInfo } from '@types';
 
 /** Styles */
-import styles from './styles.module.css'
+import styles from './styles.module.css';
 
 type InfoPanelProps = {
   id: string;

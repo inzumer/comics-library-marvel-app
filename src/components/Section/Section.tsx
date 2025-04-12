@@ -1,3 +1,5 @@
+'use client';
+
 /** Resources */
 import Flicking from "@egjs/react-flicking";
 import { CardImage, Loading, RichText } from '@components';

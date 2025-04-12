@@ -1,3 +1,5 @@
+'use client';
+
 /** Resources */
 import { Button, Icon, RichText } from '@components';
 import { useMediaQuery } from '@hooks';
