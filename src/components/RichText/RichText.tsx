@@ -18,7 +18,7 @@ const RichText: React.FC<RichTextProps> = ({ id, variant, bold = false, text, cl
   const weight = bold ? styles.font_bold : styles.font_light;
 
   return (
-    <Element id={id} data-testid={id} className={`${styles[variantStyle]} ${weight} ${styles.font_color} ${className}`}>
+    <Element id={id} data-testid={id} className={`${styles[variantStyle]} ${weight} ${className}`}>
       {text}
     </Element>
   );
