@@ -13,6 +13,7 @@ export { Pagination } from './Pagination';
 export { RichText } from './RichText';
 export { Section } from './Section';
 export { Separator } from './Separator';
+export { Searcher } from './Searcher';
 
 /** Pages */
 export { Home } from './Home';

@@ -68,6 +68,12 @@ Start editing the app from app/page.tsx. The content updates automatically when 
 
 ---
 
+## 🚀 Release Process and GitFlow
+
+This project uses these GitFlow rules, which you can see [here](RELEASE_PROCESS.md).
+
+---
+
 ## 📦 Font Optimization
 
 This project uses `next/font` to efficiently load the [Geist]('https://vercel.com/font') font, developed by Vercel.
