@@ -14,15 +14,38 @@
   background-color: var(--secondary-light);
 }
 
+.search {
+  /* 2. Box model */
+  width: 100%;
+  min-height: 60vh;
+
+  /* 4. Visuals */
+  background-image: url('../../assets/backgrounds/bg-black-down.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
 .section {
   /* 1. Positioning */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 
   /* 2. Box model */
   max-width: var(--breakpoint-lg);
+}
+
+.search__container {
+  /* 1. Positioning */
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-32);
+
+  /* 2. Box model */
+  width: 100%;
+  max-width: var(--breakpoint-lg);
+  margin: auto;
+  padding: var(--space-48) var(--space-16);
 }
 
 .presentation__title {
@@ -31,8 +54,25 @@
   margin: auto;
 
   /* 3. Typography */
+  text-transform: uppercase;
   text-align: center;
-  color: white;
+  color: var(--white);
+}
+
+.search__title {
+  /* 2. Box model */
+  width: 100%;
+  margin-bottom: var(--space-32);
+
+  /* 3. Typography */
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  color: var(--white);
+}
+
+.search__text {
+  /* 3. Typography */
+  color: var(--white);
 }
 
 /* Section Backgrounds */
@@ -58,4 +98,11 @@
 
   /* 2. Box model */
   width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .search {
+    /* 2. Box model */
+    min-height: 70vh;
+  }
 }

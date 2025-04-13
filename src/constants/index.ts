@@ -4,6 +4,7 @@ export const API = "/api";
 export const API_PATH = {
   RESOURCES: `${API}/resources`,
   RESOURCES_BY_ID: `${API}/resources-by-id`,
+  SEARCH: `${API}/search`,
 };
 
 export const SECTION_QUERY = 'section=';

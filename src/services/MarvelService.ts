@@ -65,6 +65,32 @@ class MarvelService {
       throw new Error(`Error in GET ${section}/${id}: ${errorMessage}`);
     }
   }
+
+  /**
+   * Fetches characters that start with the given name.
+   * @param name - The name prefix to search for.
+   * @param section - The section to which the id we are looking for belongs.
+   * @returns A promise that resolves to the API response.
+   * @throws An error if the request fails or if the response is not ok.
+   */
+  async getByName(name: string, section: string): Promise<ApiCategory> {
+    try {
+      const DOMAIN = `${this.domain}${section}?${this.apiTs}&${this.apiKey}&${this.apiHash}&nameStartsWith=${name}`;
+
+      const response = await fetch(DOMAIN);
+      
+      const res: ApiCategory = await response.json();
+
+      return res;
+    } catch (err) {
+      const errorMessage =
+        err instanceof Error ? err.message : "An unknown error occurred";
+
+      throw new Error(
+        `Error in GET characters?nameStartsWith=${name}: ${errorMessage}`
+      );
+    }
+  }
 }
 
 export default MarvelService;
